@@ -1,0 +1,64 @@
+/* Alternative box model */
+* {
+  box-sizing: border-box;
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+  color: rgb(20, 99, 99);
+  background-color: burlywood;
+  width: 18.75rem;
+  padding: 1.25rem;
+  border: 5px solid firebrick;
+  margin: 1.25rem auto;
+  box-shadow: 5px 10px 15px orange;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 1rem;
+}
+
+#about-h2 {
+  color: gold;
+}
+
+.about-heading {
+  color: darksalmon;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: antiquewhite;
+  background-color: darkcyan;
+}
+
+p {
+  line-height: 1.25;
+}
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+a:hover {
+  color: cadetblue;
+}
+/* List Styles */
+ul {
+  list-style: none;
+  padding: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+li {
+  border: 2px solid firebrick;
+  flex: 1;
+}
